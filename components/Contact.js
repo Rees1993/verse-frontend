@@ -42,7 +42,7 @@ const Contact = () => {
               id="topic"
               name="topic"
               autoComplete="topic"
-              className="border-gray focus:border-gray mt-2 block w-full rounded-md border py-3 px-4 text-sm shadow-sm focus:outline-none focus:ring-slate-dark"
+              className="border-gray mt-2 block w-full rounded-md border py-3 px-4 text-sm shadow-sm focus:border-slate focus:outline-none focus:ring-slate-dark"
             >
               <option value="">Please Select</option>
               <option>Product & MVP Development</option>
