@@ -30,6 +30,7 @@ const Contact = () => {
                 type="text"
                 className=" border-gray block w-full rounded-md border py-3 px-4 text-sm shadow-sm placeholder:text-slate-dark focus:border-slate focus:ring-slate-dark "
                 placeholder="John Doe"
+                required
               />
             </div>
           </div>
@@ -42,9 +43,13 @@ const Contact = () => {
               id="topic"
               name="topic"
               autoComplete="topic"
-              className="border-gray mt-2 block w-full rounded-md border py-3 px-4 text-sm shadow-sm focus:border-slate focus:outline-none focus:ring-slate-dark"
+              defaultValue=""
+              className="border-gray mt-2 block w-full rounded-md border py-3 px-4 text-sm shadow-sm invalid:text-slate-dark focus:border-slate focus:outline-none focus:ring-slate-dark"
+              required
             >
-              <option value="">Please Select</option>
+              <option value="" disabled>
+                Please Select
+              </option>
               <option>Product & MVP Development</option>
               <option>Content Delivery & Campaign Management</option>
               <option>Design & UX</option>
@@ -64,6 +69,7 @@ const Contact = () => {
                 rows="4"
                 className=" border-gray block w-full rounded-md border py-3 px-4 text-sm shadow-sm placeholder:text-slate-dark focus:border-slate-dark focus:ring-slate-dark"
                 placeholder="Enter a message..."
+                required
               />
             </div>
           </div>
