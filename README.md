@@ -1,3 +1,18 @@
+# Setup
+
+This repo is designed to be used in conjunction with [Craft CMS repo](https://github.com/Rees1993/verse-craft).
+
+## Steps
+
+1. Clone Repo
+2. Ensure that you have completed README in the [Craft CMS repo](https://github.com/Rees1993/verse-craft).
+3. Install dependencies `npm install` or `yarn`
+4. Copy .env.example in terminal `cp .env.example`
+5. Make sure `CRAFT_URL` in .env matches the URL of your Craft installation
+6. Run development server `npm run dev` or `yarn dev`
+
+# Next.js README
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
