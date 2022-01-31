@@ -12,7 +12,7 @@ const EntryCard = ({ data }) => {
           alt={thumbnail.title}
           height={thumbnail.height}
           width={thumbnail.width}
-          className="transition group-hover:scale-110"
+          className="transition duration-300 group-hover:scale-110"
           loading="lazy"
         />
         {/* In order to use Next/Image, need to have craft install domain in next.config.js */}

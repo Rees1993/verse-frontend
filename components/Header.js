@@ -15,7 +15,7 @@ const Header = () => {
             <a className="flex h-full items-center" href="#">
               Navigation 2
             </a>
-            <span className="absolute bottom-0 left-0 hidden h-[5px] w-full bg-secondary group-hover:block"></span>
+            <span className="absolute bottom-0 left-0 h-[5px] w-0 bg-secondary transition-width duration-200 group-hover:w-full"></span>
           </li>
           <li className="group relative h-full">
             <a className="relative flex h-full items-center" href="#">

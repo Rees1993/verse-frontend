@@ -8,8 +8,8 @@ const CardsWithTabs = ({ data }) => {
     return (
       <button
         className={` ${
-          id == active ? 'border-primary bg-white text-primary' : 'text-gray border-grey'
-        }  relative border-b-3 px-9 py-2.5 transition-colors hover:bg-primary-light hover:text-primary`}
+          id == active ? 'border-primary bg-white text-primary' : 'border-slate text-slate'
+        }  relative border-b-3 px-9 py-2.5 transition-colors duration-300 hover:border-b-primary hover:bg-primary-light hover:text-primary`}
         onClick={() => setActive(id)}
       >
         {text}
@@ -21,11 +21,8 @@ const CardsWithTabs = ({ data }) => {
     <section className="mt-16 ">
       <div className="flex justify-center space-x-[30px] font-leiko">
         {[...Array(3)].map((button, key) => {
-          <Button id={key} text={`Tab` + key} />;
+          return <Button key={key} id={key} text={`Tab ` + (key + 1)} />;
         })}
-        {/* <Button id={0} text="Tab 1" />
-        <Button id={1} text="Tab 2" />
-        <Button id={2} text="Tab 3" /> */}
       </div>
       {/* Cards */}
       <div className="mx-auto mt-20 grid max-w-[1200px] grid-cols-3 place-items-center gap-10">
