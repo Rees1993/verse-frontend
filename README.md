@@ -7,9 +7,10 @@ This repo is designed to be used in conjunction with [Craft CMS repo](https://gi
 1. Clone Repo
 2. Ensure that you have completed README in the [Craft CMS repo](https://github.com/Rees1993/verse-craft).
 3. Install dependencies `npm install` or `yarn`
-4. Copy .env.example in terminal `cp .env.example`
+4. Copy .env.example in terminal `cp .env.example .env.local`
 5. Make sure `CRAFT_URL` in .env matches the URL of your Craft installation
 6. Run development server `npm run dev` or `yarn dev`
+7. If get 400 error and page isn't loading, regenerate the token in Craft CMS and replace in .env.local
 
 # Next.js README
 
