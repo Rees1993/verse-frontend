@@ -1,6 +1,7 @@
 module.exports = {
   images: {
-    domains: ["verse-craft.test"],
+    domains: ['verse-craft.test'],
   },
   reactStrictMode: true,
+  swcMinify: true,
 };

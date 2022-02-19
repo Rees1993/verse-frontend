@@ -4,47 +4,47 @@
 
 @layer base {
   @font-face {
-    font-family: "Tinos";
+    font-family: 'Tinos';
     font-style: normal;
     font-weight: normal;
     font-display: fallback;
-    src: url(/fonts/Tinos/tinos-regular.woff2) format("woff2");
+    src: url(/fonts/Tinos/tinos-regular.woff2) format('woff2');
   }
   @font-face {
-    font-family: "Tinos";
+    font-family: 'Tinos';
     font-style: normal;
     font-weight: 700;
     font-display: fallback;
-    src: url(/fonts/Tinos/tinos-bold.woff2) format("woff2");
+    src: url(/fonts/Tinos/tinos-bold.woff2) format('woff2');
   }
   @font-face {
-    font-family: "Tinos";
+    font-family: 'Tinos';
     font-style: italic;
     font-weight: normal;
     font-display: fallback;
-    src: url(/fonts/Tinos/tinos-italic.woff2) format("woff2");
+    src: url(/fonts/Tinos/tinos-italic.woff2) format('woff2');
   }
   @font-face {
-    font-family: "Tinos";
+    font-family: 'Tinos';
     font-style: italic;
     font-weight: 700;
     font-display: fallback;
-    src: url(/fonts/Tinos/tinos-bolditalic.woff2) format("woff2");
+    src: url(/fonts/Tinos/tinos-bolditalic.woff2) format('woff2');
   }
 
   @font-face {
-    font-family: "Leiko";
+    font-family: 'Leiko';
     font-style: normal;
     font-weight: normal;
     font-display: fallback;
-    src: url(/fonts/Leiko/leiko-regular.woff2) format("woff2");
+    src: url(/fonts/Leiko/leiko-regular.woff2) format('woff2');
   }
 
   @font-face {
-    font-family: "Roboto";
+    font-family: 'Roboto';
     font-style: normal;
     font-weight: normal;
     font-display: fallback;
-    src: url(/fonts/Roboto/roboto-regular.woff2) format("woff2");
+    src: url(/fonts/Roboto/roboto-regular.woff2) format('woff2');
   }
 }
